@@ -158,13 +158,14 @@ export function PortfolioHero() {
 
         <motion.div className="relative z-10 flex flex-1 flex-col justify-center" style={{ y, opacity }}>
           <motion.p
-            className="mb-3 font-sans text-xs font-light uppercase tracking-[0.3em] text-primary/70 md:text-sm"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
-            Web Designer / Frontend Developer
-          </motion.p>
+  className="mb-3 font-sans text-xs font-light uppercase tracking-[0.3em] text-primary/70 md:text-sm"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.3 }}
+>
+  Full Stack Developer
+</motion.p>
+
 
           <div className="mb-16 md:mb-20 overflow-hidden">
             <motion.h1
